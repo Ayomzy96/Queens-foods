@@ -1,0 +1,19 @@
+.about-section {
+    margin-bottom: 30px;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.about-section br {
+    display: none;
+}

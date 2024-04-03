@@ -1,0 +1,43 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href=" {% static 'static/stylesabout.css' %} ">
+</head>
+<body>
+    {% block main %}
+    
+    <main>
+        <section class="about-section">
+            <h2>Our Story</h2>
+                <p>Welcome to queens foods! We are passionate about providing delicious and nutritious pap to our customers.</p>
+        <p>Our mission is to offer high-quality, fresh ingredients to the pap we prepare. Whether you're craving a hearty breakfast, a satisfying lunch, or a gourmet dinner.</p>
+        <p>At Queen foods, we prioritize customer satisfaction above all else. We strive to create a welcoming atmosphere where you can enjoy a memorable experience with friends and family.</p>
+        <p>Thank you for choosing us for your culinary adventures. We look forward to serving you!</p>
+        <br>
+        </section>
+        <section class="about-section">
+            <h2>Our Team</h2>
+            <p>
+                Meet the talented individuals who make up our team. Each member contributes unique skills and passion to
+                Queens foods. Together, we strive to [achieve a common goal or mission].
+            </p>
+            <br>
+        </section>
+        <section class="about-section">
+            <h2>Our Mission</h2>
+            <p>
+                At [Your Company/Organization Name], our mission is to [briefly state your mission]. We are committed to
+                [key principles or values] and work towards [specific goals or objectives].
+            </p>
+        </section>
+    </main>
+    
+    {% endblock main %}
+</body>
+</html>

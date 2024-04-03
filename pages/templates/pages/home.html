@@ -1,0 +1,42 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href=" {% static 'static/styles.css' %} ">
+</head>
+ {% block title %} home {% endblock %}
+ 
+
+
+ {% block main %}
+ <div class="main-content">
+    <p>
+        <h2> What are the health benefits of drinking pap (OGI) </h2>
+        <br><br>
+        Ogi, or pap, is a traditional African cereal pudding with numerous health benefits:
+        <br><br>
+        - Nutrient-Rich: Packed with essential nutrients like carbohydrates, proteins, vitamins, and minerals.
+        <br>
+        - Digestive Ease: The fermentation process aids digestion, making it gentle on the stomach.
+        <br>
+        - Energy Booster: Provides a quick and sustained energy release, ideal for breakfast or snacks.
+        <br>
+        - Gut Health Support: Fermented foods promote a healthy gut microbiome and aid digestion.
+        <br>
+        - Hydration: Consumed as a liquid, it helps in staying hydrated throughout the day.
+        <br>
+        - Cultural Significance: Beyond nutrition, it holds cultural value, fostering community and tradition.
+        <br>
+        - Versatile: Can be customized with various toppings and flavors to suit preferences.
+        <br>
+        - Weight Management: Low in fat and calories, it can help in weight management by promoting satiety.
+        <br><br>
+        Incorporating ogi into your diet offers a delicious and nutritious way to support overall health and well-being.
+    </p>
+</div>
+ {% endblock main %}
