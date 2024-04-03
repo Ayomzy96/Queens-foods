@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Queens foods{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <script>
+        function sendEmail(email) {
+            window.location.href = 'mailto:django.core.mail.backends.console.EmailBackend' + email;
+        }
+        </script>
+        
 </head>
 
 <body>

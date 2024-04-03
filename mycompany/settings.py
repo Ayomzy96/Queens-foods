@@ -119,6 +119,6 @@ USE_TZ = True
 STATIC_URL = 'static/'
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 DEFAULT_FROM_EMAIL = "abrahamayomide419@gmail.com.com"
-NOTIFY_EMAIL = "abrahamayomide117@gmail.com"
+NOTIFY_EMAIL = "abrahamayomide419@gmail.com"
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
